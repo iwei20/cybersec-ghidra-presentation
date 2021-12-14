@@ -8,12 +8,16 @@ int poly(int x) {
 
 int main () {
 	int n;
+	printf("Enter the password: ");
 	scanf("%d", &n);
-	printf("Result is: %d\n", poly(n));
+	int flgafu[11] = {70, 76, 65, 71, 123, 68, 65, 87, 69, 73, 125};
 	if (poly(n) == 3) {
-		printf("Success!\n");
+		for(int i = 0; i < 11; i++){
+			printf("%c", flgafu[i]);	
+		}
+		printf("\n");
 	} else {
-		printf("Failure! Desired result is 3\n");
+		printf("Wrong password.\n");
 	}
 	return 0;
 }
