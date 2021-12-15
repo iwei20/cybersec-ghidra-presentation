@@ -1,5 +1,9 @@
 # cybersec-ghidra-presentation
+# Group Name: Ghidrannovich is Al Wei
 Cybersecurity Winter 2021 with Mr. Konstantinnovich: Decompiling Assembly to C with Ghidra
+
+# Slides:
+https://www.overleaf.com/read/ytbkrqvvhkgf
 
 Daily Log:
 12/14/2021
