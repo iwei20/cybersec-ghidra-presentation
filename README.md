@@ -15,3 +15,6 @@ Daily Log:
 - 12/16/2021
     - Ivan Wei: Looked for crackmes.one exercises that could fit
     - Alvin Li: Finished drafting the rest of the slides, and found a nice LIT CTF rev exercise 
+- 12/17/2021
+    - Ivan Wei: Solved the LIT CTF exercise and looked more into the writeup 
+    - Alvin Li: Helped with solving and started on attempting to reproduce the LITCTF exercise
