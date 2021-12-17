@@ -12,3 +12,6 @@ Daily Log:
 - 12/15/2021
     - Ivan Wei: Worked more on slides: What is Assembly? and Introducing Ghidra
     - Alvin Li: Created a binary file for demo, tried looking for more examples on PicoCTF
+- 12/16/2021
+    - Ivan Wei: Looked for crackmes.one exercises that could fit
+    - Alvin Li: Finished drafting the rest of the slides, and found a nice LIT CTF rev exercise 
