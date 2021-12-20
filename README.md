@@ -18,3 +18,6 @@ Daily Log:
 - 12/17/2021
     - Ivan Wei: Solved the LIT CTF exercise and looked more into the writeup 
     - Alvin Li: Helped with solving and started on attempting to reproduce the LITCTF exercise
+- 12/20/2021
+    - Ivan Wei: Worked on fixing the LITCTF exercise
+    - Alvin Li: Worked on fixing the LITCTF exercise
