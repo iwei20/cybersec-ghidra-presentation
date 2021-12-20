@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <unistd.h>
 
-char flag[5] = "bobba";
+//char flag[22] = "FLAG{FIVE_HEAD_DRAGON}";
+char flag[22] = ">C9HI1Y=P0J9K'K*N?@6r";
+char dn[36] = "INSPIRED BY LITCTF 2021 SUMMER ROUND";
 
 int main () {
-	int s = 5;
-	for (int i = 0; i < s; ++i) {
-		
-		//do something with the flag
+	for (int i = 0; i < 792/2; ++i) {
+		flag[i % 22] ^= dn[i % 36];
 
-		printf("Loading flag");
+		printf("\rLoading flag");
 		for(int j = 0; j <= i % 3; j++){
 			printf(".");
 		}
@@ -19,9 +19,9 @@ int main () {
 			printf(" ");
 			k += 1;
 		}
-		printf("(Time remaining: %d seconds)                   \n", s - i);
+		printf("(Time remaining: %d seconds)                   \r", 612 - i);
 		fflush(stdout);
-		sleep(1);
+		sleep(0);
 	}
 	printf("\n%s\n", flag);
 	return 0;
