@@ -21,3 +21,6 @@ Daily Log:
 - 12/20/2021
     - Ivan Wei: Worked on fixing the LITCTF exercise
     - Alvin Li: Worked on fixing the LITCTF exercise
+- 12/21/2021
+    - Ivan Wei: Finish live demo slides
+    - Alvin Li: Test loading binary; help with latex for live demo slides
