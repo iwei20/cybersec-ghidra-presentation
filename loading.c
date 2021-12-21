@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>
 
-//char flag[22] = "FLAG{FIVE_HEAD_DRAGON}";
 char flag[22] = ">C9HI1Y=P0J9K'K*N?@6r";
 char dn[36] = "INSPIRED BY LITCTF 2021 SUMMER ROUND";
 
 int main () {
-	for (int i = 0; i < 792/2; ++i) {
+	printf("%s\n", dn);
+	for (long long i = 0; i < 551999999999844; ++i) {
 		flag[i % 22] ^= dn[i % 36];
 
 		printf("\rLoading flag");
@@ -19,9 +19,9 @@ int main () {
 			printf(" ");
 			k += 1;
 		}
-		printf("(Time remaining: %d seconds)                   \r", 612 - i);
+		printf("(Time remaining: %lld seconds)                   \r", 551999999999844 - i);
 		fflush(stdout);
-		sleep(0);
+		sleep(1);
 	}
 	printf("\n%s\n", flag);
 	return 0;
