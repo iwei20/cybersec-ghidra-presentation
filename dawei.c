@@ -1,6 +1,6 @@
 /**
- * Code for patching binaries
- * instead of == result, we can change a JNZ to a JZ jump to bypass the if statement.  
+ * Code for intro to patching binaries
+ * instead of == result, we can change a JNZ to a JZ jump to bypass the if statement.
  **/
 
 #include <stdio.h>
@@ -20,9 +20,14 @@ unsigned long hash(unsigned char *str)
 }
 
 int main(int argc, char** argv) {
-    if (argc < 2) printf("Usage: ./dawei [string]");
+    if (argc < 2) {
+      printf("Usage: ./dawei [string]\n");
+      return 0;
+    }
     // printf("%lu\n", hash("F{DAWEI}"));
     if (hash(argv[1]) == result) {
       printf("You have gained access to the Ivan Bank!\n");
+    } else {
+      printf("Access denied.\n");
     }
 }
