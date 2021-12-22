@@ -24,3 +24,6 @@ Daily Log:
 - 12/21/2021
     - Ivan Wei: Finish live demo slides
     - Alvin Li: Test loading binary; help with latex for live demo slides
+- 12/22/2021
+    - Ivan Wei: Fix patching slide, suggested separation of demo.c and pdemo.c. Fleshed out that demo.c will be used for both teaching C and initial decompilation demo, while pdemo.c will be used for patching, in the context of original. Thought up epic prank with showing the string in the binary for the demo code, but it being hidden for the other binaries.
+    - Alvin Li: Added C style constant size string demonstration to demo.c, coded the pdemo.c. Continued to test loading binary.
